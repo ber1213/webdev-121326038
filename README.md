@@ -105,3 +105,14 @@ ok   nothing but protocol on stdout
 #Start MCP Server
 
 npm run --silent mcp
+
+
+## The description experiment
+The descriptin in server.js changed
+From: Return the title and topics of one course lecture by its number, 1 to 12. Use it when asked what a lecture covers.
+To: Return the description of a lecture. Use it when asked what a lecture covers.
+The model kept it the same. Stats also show that the tokens used are similar.
+This behaviour could be explained by the strict InputSchema field in server.js
+
+## How to start it
+npm run --silent mcp
